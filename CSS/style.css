@@ -1,0 +1,260 @@
+body{
+ 	line-height: 1;
+ 	background:url("../Images/ol.jpg") no-repeat;
+ 	margin: 0;
+ 	background-color: #fad096;
+ 	font-size: 18px;
+}
+form {
+	 margin-right: 0px ;
+	 margin-left: 0px;
+	 margin-top: 0px;
+	 margin-bottom: 0px;
+	 padding: 0;
+ }
+
+header{
+    height: 30px;
+    width: 40%;
+    color: black;
+    background-color: orange;
+    float: left;
+    text-indent: 10px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+ header h1{
+ 	padding: 0;
+ 	margin: 0;
+ 	font-family: serif;
+ }
+
+ #widget{
+ 	height: 65px;
+    width: 60%;
+    color: black;
+    background-color: orange;
+    float: left;
+ 	text-align: right;
+	text-indent: 10px;
+
+}
+#widget form{
+	padding-top: 5px;
+	padding-right: 5px;
+}
+nav{
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+nav ul{
+	width: 100%;
+	height: auto;
+	background-color: grey;
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	-webkit-transition: max-height 0.8s;
+	-ms-transition: max-height 0.8s;
+	-moz-transition: max-height 0.8s;
+	-o-transition: max-height 0.8s;
+	transition: max-height 0.8s; 
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 15px;
+}
+ 
+nav ul li:hover{
+	background-color: black;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+aside{
+	width: 30%;
+	height: auto;
+	float: right; 
+ }
+
+#adbox1{
+	width: 100%;
+	float: right;
+	text-align: center;
+	border: 2px solid grey;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+	padding-top: 5px;
+	font-size: 100%;
+ }
+ #adbox2{
+	width: 100%;
+	float: right;
+	text-align: center;
+	border: 2px solid grey;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+	padding-top: 5px;
+	font-size: 100%;
+ }
+ #adbox3{
+	width: 100%;
+	float: right;
+	text-align: center;
+	border: 2px solid grey;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+	padding-top: 5px;
+	font-size: 100%;
+ }
+
+ footer{
+	height: 70px;
+	width: 100%;
+	color: white;
+	background-color: grey;
+	float: left;
+	text-indent: 10px;
+ }
+
+ footer img{
+ 	display: inline;
+ 	float: right;
+ 	padding-right: 5px;
+ }
+
+#wrapper{
+ 	width: 85%;
+ 	margin: 0 auto;
+ 	background-color: white;
+ }
+
+#main{
+ 	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 58%;
+	background-color: white;
+	min-height: 400px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+
+#main img{
+	max-width: 100%;
+}
+
+iframe{
+	padding-bottom: 20px;
+	width: 100%;
+	height: 500px;
+	frameborder="0";
+	border:0;
+}
+.handle{
+	width: 100%;
+	background: grey;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	cursor: pointer;
+	color: white;
+	display: none;
+	align: left;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1186px){
+
+	#widget{
+	    width: 100%;
+	    text-align: left;
+	    height: 30px;
+	    padding-top: 10px;
+	}
+	header{
+		width: 100%;
+	}
+}
+
+
+
+@media screen and (max-width: 667px){
+
+	#wrapper{
+		width: 100%;
+	}
+	#widget #password {
+ 		width: 20%;
+ 		display: inline-block;
+ 	}
+ 	#widget #username {
+ 		width: 20%;
+ 		display: inline-block;
+ 	}
+
+}
+
+
+
+@media screen and (max-width: 565px){
+	nav ul{
+		max-height: 0;
+	}
+	nav ul li {
+		width: 100%;
+		text-align: left;
+	}
+	.handle{
+	display: block;
+	}
+	.showing{
+		max-height: 25em;
+	}
+	#main{
+ 	width: 90%;
+ 	}
+ 	aside{
+	width: 100%;
+	float: left;
+	}
+	#widget{
+ 	width: 100%;
+ 	height: auto;
+ 	}
+ 	#widget form{
+ 	display: block;
+ 	}
+
+ 	#wrapper{
+ 	width: 100%;
+ 	margin: 0 auto;
+ 	}
+ 	#widget #password {
+ 		width: 13%;
+ 		
+ 	}
+ 	#widget #username {
+ 		width: 13%;
+ 	}
+ 	header h1{
+ 		font-size: 28px;
+ 	}
+ }
